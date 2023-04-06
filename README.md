@@ -2,13 +2,13 @@
 Analyzing OList Business Sales Data
 
 
-Data Model: Relational DB (SQL Server) 
+**Data Model**: Relational DB (SQL Server) 
 
 
-Target Platform: Azure Cosmos DB (API) 
+**Target Platform**: Azure Cosmos DB (API) 
 
 
-Objective/Scope:
+**Objective/Scope**:
 
 • Analyzing top selling product categories
 
@@ -25,4 +25,4 @@ Objective/Scope:
 • Average delivery time by geographical location
 
 
-Visualization Tool: Power BI
+**Visualization Tool**: Power BI

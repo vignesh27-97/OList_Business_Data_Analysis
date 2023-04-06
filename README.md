@@ -1,11 +1,5 @@
 # OList_Business_Data_Analysis
 
-
-**Data Model**: Relational DB (SQL Server) 
-
-
-**Target Platform**: Azure Cosmos DB (API) 
-
 **Implementation**:
 
 o	We conducted data profiling, data cleaning, and ETL tasks using Talend to transform unstructured data from CSV files into Microsoft SQL Server. Then, we employed a Python script to convert SQL reports into JSON format, utilizing Cosmos DB for SQL API, and scheduled this script in Apache Airflow orchestration tool by configuring the DAG.
@@ -14,6 +8,10 @@ o	After the JSON files were generated, they were loaded into Azure Blob storage 
 
 o	Finally, we used the Gremlin Python API to transfer the SQL reports into the Azure Cosmos Gremlin Graph Database and established the edge relationships between the nodes.
 
+
+**Data Model**: Relational DB (SQL Server) 
+
+**Target Platform**: Azure Cosmos DB (API) 
 
 **Objective/Scope**:
 

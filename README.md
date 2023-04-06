@@ -6,7 +6,7 @@
 
 **Target Platform**: Azure Cosmos DB (API) 
 
-Implementation:
+**Implementation**:
 
 o	We conducted data profiling, data cleaning, and ETL tasks using Talend to transform unstructured data from CSV files into Microsoft SQL Server. Then, we employed a Python script to convert SQL reports into JSON format, utilizing Cosmos DB for SQL API, and scheduled this script in Apache Airflow orchestration tool by configuring the DAG.
 
